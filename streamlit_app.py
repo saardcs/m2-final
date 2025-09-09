@@ -29,8 +29,8 @@ def render_gcf_factorization(item):
     factors_n1 = first_two_factors(item["num1"])
     factors_n2 = first_two_factors(item["num2"])
     
-    st.text_input(f"Factors of {item["num1"]} (comma separated):", key=f"{item['id']}_factors_n1", placeholder=f"e.g., {', '.join(map(str, factors_n1))}...")
-    st.text_input(f"Factors of {item["num2"]} (comma separated):", key=f"{item['id']}_factors_n2", placeholder=f"e.g., {', '.join(map(str, factors_n2))}...")
+    st.text_input(f"Factors of {item['num1']} (comma separated):", key=f"{item['id']}_factors_n1", placeholder=f"e.g., {', '.join(map(str, factors_n1))}...")
+    st.text_input(f"Factors of {item['num2']} (comma separated):", key=f"{item['id']}_factors_n2", placeholder=f"e.g., {', '.join(map(str, factors_n2))}...")
 
     st.text_input("GCF:", placeholder="Enter a number (e.g., 2)", key=gcf_key)
 
