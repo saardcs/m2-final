@@ -1,0 +1,242 @@
+{
+  "title": "Final Exam",
+  "sections": [
+    {
+      "title": "PART I: Sudoku Puzzle (4pts)",
+      "instruction": "Answer the following questions by selecting the correct answer.",
+      "items": [
+        {
+          "type": "mcq",
+          "id": "q1",
+          "text": "1. The highlighted portion of the sudoku puzzle below is called",
+          "image": "images/sudoku1.png",
+          "options": [
+            "Column",
+            "Row",
+            "Run",
+            "Mini-grid"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q2",
+          "text": "2. The highlighted portion of the sudoku puzzle below is called",
+          "image": "images/sudoku2.png",
+          "options": [
+            "Column",
+            "Row",
+            "Run",
+            "Mini-grid"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q3",
+          "text": "3. The highlighted portion of the sudoku puzzle below is called",
+          "image": "images/sudoku3.png",
+          "options": [
+            "Column",
+            "Row",
+            "Run",
+            "Mini-grid"
+          ]
+        },
+        {
+          "type": "sudoku",
+          "id": "q4",
+          "text": "4. Solve the 6x6 Sudoku puzzle using the numbers 1 to 6.",
+          "component": "sudoku"
+        }
+      ]
+    },
+    {
+      "title": "PART II: Counting Combinations I (3pts)",
+      "instruction": "Given the blocks below answer the following questions.",
+      "image": "images/blocks.png",
+      "items": [
+        {
+          "type": "mcq",
+          "id": "q5",
+          "text": "5. How many different three-block towers can you make?",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q6",
+          "text": "6. How many different three-block towers can you make if there is a restriction that the red block cannot be at the top?",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q7",
+          "text": "7. How many different four-block towers can you make, if there is a restriction that the red block and the blue block cannot be at the top?",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PART III: Counting Combinations II (4pts)",
+      "instruction": "Given the problem below, answer the following questions.\n\nSuppose that the four-character code has the following restrictions:\n- Numbers and letters\n- Uppercase letters only (lowercase is not allowed)\n- Cannot repeat characters",
+      "image": "images/4char.png",
+      "items": [
+        {
+          "type": "mcq",
+          "id": "q8",
+          "text": "8. What characters can make up the code?",
+          "options": [
+            "10 numbers",
+            "26 letters",
+            "10 numbers and 26 letters",
+            "10 numbers and 52 letters"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q9",
+          "text": "9. How many possible characters are there for the first spot in the password?",
+          "options": [
+            "10",
+            "59",
+            "36",
+            "62"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q10",
+          "text": "10. How many possible characters are there for the fourth spot in the password?",
+          "options": [
+            "7",
+            "33",
+            "10",
+            "36"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q11",
+          "text": "11. How many total password combinations are possible?",
+          "options": [
+            "1,413,720",
+            "776,520,240",
+            "916,132,832",
+            "44,261,653,680"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PART IV: Patterns in Mathematics (3pts)",
+      "instruction": "Given the two numbers, find the GCF (greatest common factor) using the specified method.",
+      "items": [
+        {
+          "type": "gcf_factorization",
+          "id": "q12",
+          "num1": 30,
+          "num2": 40,
+          "text": "12. Use the factorization method to find the GCF of **30** and **40**."
+        },
+        {
+          "type": "gcf_subtraction",
+          "id": "q13",
+          "num1": 11,
+          "num2": 22,
+          "text": "13. Use the subtraction method to find the GCF of **11** and **22**."
+        },
+        {
+          "type": "gcf_division",
+          "id": "q14",
+          "num1": 77,
+          "num2": 49,
+          "text": "14. Use the division method to find the GCF of **77** and **49**."
+        }
+      ]
+    },
+    {
+      "title": "PART V: Graphs and Trees (6pts)",
+      "instruction": "Answer the following questions by selecting the correct answer.",
+      "items": [
+        {
+          "type": "mcq",
+          "id": "q15",
+          "text": "15. The highlighted part of the graph is called:",
+          "image": "images/graph1.png",
+          "options": [
+            "Node",
+            "Edge",
+            "Root",
+            "Leaf"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q16",
+          "text": "16. The highlighted part of the graph is called:",
+          "image": "images/graph2.png",
+          "options": [
+            "Node",
+            "Edge",
+            "Root",
+            "Leaf"
+          ]
+        },
+        {
+          "type": "instruction",
+          "text": "Use the graph below to answer the following questions.",
+          "image": "images/tree.png"
+        },
+        {
+          "type": "mcq",
+          "id": "q17",
+          "text": "17. Which node is the root?",
+          "options": [
+            "Node A",
+            "Nodes E, F, G, H, I",
+            "Nodes B, C, D",
+            "Nodes E, F, C, G, H, I"
+          ]
+        },
+        {
+          "type": "mcq",
+          "id": "q18",
+          "text": "18. Which nodes are leaves?",
+          "options": [
+            "Node A",
+            "Nodes E, F, G, H, I",
+            "Nodes B, C, D",
+            "Nodes E, F, C, G, H, I"
+          ]
+        },
+        {
+          "type": "drawing",
+          "text": "Draw a graph in the space below based on the information given and answer the questions.\n\nIn a class, there are five students: Fah, Beam, New, Win, and Tae.\n\nHere is some information about their friendships:\n- Fah is friends with Beam, New, and Win.\n- Beam is friends with Tae.\n- New is friends with Win and Tae.\n- Win is friends with Tae.\n\nDraw a graph to represent the friendships where:\n- Each student is a node.\n- Each friendship is an edge (a line connecting two students)."
+        },
+        {
+          "type": "short_answer",
+          "id": "q19",
+          "text": "19. List the nodes of your graph (e.g. Mina):"
+        },
+        {
+          "type": "short_answer",
+          "id": "q20",
+          "text": "20. List the edges of your graph (e.g. Mina – Bank):"
+        }
+      ]
+    }
+  ]
+}
