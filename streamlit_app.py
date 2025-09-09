@@ -134,7 +134,7 @@ def render_gcf_division(item):
     st.text_input("GCF:", placeholder="Enter a number (e.g., 2)", key=gcf_key)
 
 def render_instruction(item):
-    st.write(f"**Instruction**: {item["text"]}")
+    st.write(f"**Instruction**: {item['text']}")
     if "image" in item:
         st.image(item["image"])
 
@@ -169,7 +169,7 @@ def render_custom_component(item, components):
         st.warning(f"Unknown component: {component_name}")
 
 def render_drawing(item):
-    st.write(f"**Instruction**: {item["text"]}")
+    st.write(f"**Instruction**: {item['text']}")
     canvas_result = st_canvas(
         fill_color="rgba(255, 255, 255, 1)",  # White background
         stroke_width=3,
@@ -212,7 +212,7 @@ def render_section(section, components=None):
     st.subheader(section["title"])
     
     if "instruction" in section:
-        st.write(f"**Instruction**: {section["instruction"]}")
+        st.write(f"**Instruction**: {section['instruction']}")
     if "image" in section:
         st.image(section["image"])
     
