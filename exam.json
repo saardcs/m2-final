@@ -15,7 +15,8 @@
             "Row",
             "Run",
             "Mini-grid"
-          ]
+          ],
+          "max_points": 0.5
         },
         {
           "type": "mcq",
@@ -27,7 +28,8 @@
             "Row",
             "Run",
             "Mini-grid"
-          ]
+          ],
+          "max_points": 0.5
         },
         {
           "type": "mcq",
@@ -39,13 +41,15 @@
             "Row",
             "Run",
             "Mini-grid"
-          ]
+          ],
+          "max_points": 0.5
         },
         {
           "type": "sudoku",
           "id": "q4",
           "text": "4. Solve the 6x6 Sudoku puzzle using the numbers 1 to 6.",
-          "component": "sudoku"
+          "component": "sudoku",
+          "max_points": 2.5
         }
       ]
     },
@@ -63,7 +67,8 @@
             "4",
             "6",
             "8"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "mcq",
@@ -74,7 +79,8 @@
             "4",
             "6",
             "8"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "mcq",
@@ -85,7 +91,8 @@
             "4",
             "6",
             "8"
-          ]
+          ],
+          "max_points": 1
         }
       ]
     },
@@ -103,7 +110,8 @@
             "26 letters",
             "10 numbers and 26 letters",
             "10 numbers and 52 letters"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "mcq",
@@ -114,7 +122,8 @@
             "59",
             "36",
             "62"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "mcq",
@@ -125,7 +134,8 @@
             "33",
             "10",
             "36"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "mcq",
@@ -136,7 +146,8 @@
             "776,520,240",
             "916,132,832",
             "44,261,653,680"
-          ]
+          ],
+          "max_points": 1
         }
       ]
     },
@@ -149,21 +160,24 @@
           "id": "q12",
           "num1": 30,
           "num2": 40,
-          "text": "12. Use the factorization method to find the GCF of **30** and **40**."
+          "text": "12. Use the factorization method to find the GCF of **30** and **40**.",
+          "max_points": 1
         },
         {
           "type": "gcf_subtraction",
           "id": "q13",
           "num1": 11,
           "num2": 22,
-          "text": "13. Use the subtraction method to find the GCF of **11** and **22**."
+          "text": "13. Use the subtraction method to find the GCF of **11** and **22**.",
+          "max_points": 1
         },
         {
           "type": "gcf_division",
           "id": "q14",
           "num1": 77,
           "num2": 49,
-          "text": "14. Use the division method to find the GCF of **77** and **49**."
+          "text": "14. Use the division method to find the GCF of **77** and **49**.",
+          "max_points": 1
         }
       ]
     },
@@ -181,7 +195,8 @@
             "Edge",
             "Root",
             "Leaf"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "mcq",
@@ -193,7 +208,8 @@
             "Edge",
             "Root",
             "Leaf"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "instruction",
@@ -209,7 +225,8 @@
             "Nodes E, F, G, H, I",
             "Nodes B, C, D",
             "Nodes E, F, C, G, H, I"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "mcq",
@@ -220,7 +237,8 @@
             "Nodes E, F, G, H, I",
             "Nodes B, C, D",
             "Nodes E, F, C, G, H, I"
-          ]
+          ],
+          "max_points": 1
         },
         {
           "type": "drawing",
@@ -229,12 +247,14 @@
         {
           "type": "short_answer",
           "id": "q19",
-          "text": "19. List the nodes of your graph (e.g. Mina):"
+          "text": "19. List the nodes of your graph (e.g. Mina):",
+          "max_points": 1
         },
         {
-          "type": "short_answer",
+          "type": "graph_visualization",
           "id": "q20",
-          "text": "20. List the edges of your graph (e.g. Mina – Bank):"
+          "text": "20. List the edges of your graph (e.g. Fah - Beam):",
+          "max_points": 1
         }
       ]
     }
