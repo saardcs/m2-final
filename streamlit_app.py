@@ -653,7 +653,7 @@ if st.button("Submit Test"):
         ]
 
         sheet.append_row(row)
-        No total! st.success(f"Submission received! ✅ Total Score: {round(total)}/20")
+        st.success(f"Submission received! ✅ Total Score: {round(total)}/20")
         
         with open(json_path, "rb") as f:
             st.download_button(
