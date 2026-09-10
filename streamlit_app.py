@@ -190,7 +190,7 @@ def render_drawing(item):
         key="canvas",
     )
 
-def render_short_answer(item, label="Nodes (separated by commas):"):
+def render_short_answer(item, label):
     st.write(item["text"])
     st.text_input(label, key = item["id"])
 

@@ -209,6 +209,7 @@
           "type": "short_answer",
           "id": "q16",
           "text": "16. List the nodes of your graph (e.g. Mina):",
+          "label": "Nodes (separated by commas):",
           "max_points": 1
         },
         {
@@ -249,8 +250,8 @@
         {
           "id": "q20",
           "type": "short_answer",
-          "text": "20. Total cost:",
-          "label": " ",
+          "text": "20. Write the total cost of the tree in the box below.",
+          "label": "Total cost:",
           "max_points": 1
         }
       ]
