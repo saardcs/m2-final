@@ -221,7 +221,7 @@
         {
           "type": "instruction",
           "text": "Use the graph below to answer the following questions.",
-          "image": "images/tree.png"
+          "image": "images/graph.png"
         },
         {
           "type": "mcq",
