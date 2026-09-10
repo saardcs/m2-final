@@ -554,7 +554,7 @@ def grade_exam():
 
                 section_score += score
 
-            elif item_type == "short_answer" and item_id == "q19":
+            elif item_type == "short_answer" and item_id == "q16":
                 user_nodes = st.session_state.get(item_id, "")
                 expected_nodes = st.secrets["answers"][item_id]
                 score = grade_node_list(user_nodes, expected_nodes, max_points)
@@ -566,7 +566,7 @@ def grade_exam():
                 }
                 section_score += score
 
-            elif item_type == "graph_visualization" and item_id == "q20":
+            elif item_type == "graph_visualization" and item_id == "q17":
                 edges = [st.session_state.get(f"edge_{i}", "") for i in range(7)]
                 expected_edges = [
                     ["Fah", "Beam"],
