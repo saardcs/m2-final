@@ -569,13 +569,13 @@ def grade_exam():
             elif item_type == "graph_visualization" and item_id == "q17":
                 edges = [st.session_state.get(f"edge_{i}", "") for i in range(7)]
                 expected_edges = [
-                    ["Fah", "Beam"],
-                    ["Fah", "New"],
-                    ["Fah", "Win"],
-                    ["Beam", "Tae"],
-                    ["New", "Win"],
-                    ["New", "Tae"],
-                    ["Win", "Tae"]
+                    ["Zemi", "Unplug"],
+                    ["Zemi", "Garden"],
+                    ["Zemi", "Bonus"],
+                    ["Unplug", "Kaosuay"],
+                    ["Garden", "Bonus"],
+                    ["Garden", "Kaosuay"],
+                    ["Bonus", "Kaosuay"]
                 ]
                 score = grade_edge_list(edges, expected_edges, max_points)
 

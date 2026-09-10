@@ -203,7 +203,7 @@
         },
         {
           "type": "drawing",
-          "text": "Draw a graph in the space below based on the information given and answer the questions.\n\nIn a class, there are five students: Fah, Beam, New, Win, and Tae.\n\nHere is some information about their friendships:\n- Fah is friends with Beam, New, and Win.\n- Beam is friends with Tae.\n- New is friends with Win and Tae.\n- Win is friends with Tae.\n\nDraw a graph to represent the friendships where:\n- Each student is a node.\n- Each friendship is an edge (a line connecting two students)."
+          "text": "Draw a graph in the space below based on the information given and answer the questions.\n\nIn a class, there are five students: Zemi, Unplug, Garden, Bonus, and Kaosuay.\n\nHere is some information about their friendships:\n- Fah is friends with Beam, New, and Win.\n- Beam is friends with Tae.\n- New is friends with Win and Tae.\n- Win is friends with Tae.\n\nDraw a graph to represent the friendships where:\n- Each student is a node.\n- Each friendship is an edge (a line connecting two students)."
         },
         {
           "type": "short_answer",
