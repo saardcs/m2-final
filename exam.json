@@ -252,7 +252,7 @@
         {
           "id": "q20",
           "type": "short_answer",
-          "text": "20. Write the total cost of the tree in the box below.",
+          "text": "20. Write the lowest total cost in the box below.",
           "label": "Total cost:",
           "max_points": 1
         }
