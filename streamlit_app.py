@@ -190,9 +190,9 @@ def render_drawing(item):
         key="canvas",
     )
 
-def render_short_answer(item, label):
+def render_short_answer(item):
     st.write(item["text"])
-    st.text_input(label, key = item["id"])
+    st.text_input(item["label"], key = item["id"])
 
 def render_graph_visualization(item):
     st.write(item["text"])
