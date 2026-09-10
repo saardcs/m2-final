@@ -227,6 +227,7 @@
           "type": "mcq",
           "id": "q18",
           "text": "18. Which of the following is NOT a valid spanning tree of the graph?",
+          "image": "images/choices18.png",
           "options": [
             "Tree A",
             "Tree B",
