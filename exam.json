@@ -240,6 +240,7 @@
           "type": "mcq",
           "id": "q19",
           "text": "19. Out of the spanning trees below, which one has the lowest total cost?",
+          "image": "images/choices18.png",
           "options": [
             "Tree A",
             "Tree B",
