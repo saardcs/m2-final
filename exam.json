@@ -203,7 +203,7 @@
         },
         {
           "type": "drawing",
-          "text": "Draw a graph in the space below based on the information given and answer the questions.\n\nIn a class, there are five students: Zemi, Unplug, Garden, Bonus, and Kaosuay.\n\nHere is some information about their friendships:\n- Fah is friends with Unplug, Garden, and Bonus.\n- Unplug is friends with Kaosuay.\n- Garden is friends with Bonus and Kaosuay.\n- Bonus is friends with Kaosuay.\n\nDraw a graph to represent the friendships where:\n- Each student is a node.\n- Each friendship is an edge (a line connecting two students)."
+          "text": "Draw a graph in the space below based on the information given and answer the questions.\n\nIn a class, there are five students: Zemi, Unplug, Garden, Bonus, and Kaosuay.\n\nHere is some information about their friendships:\n- Zemi is friends with Unplug, Garden, and Bonus.\n- Unplug is friends with Kaosuay.\n- Garden is friends with Bonus and Kaosuay.\n- Bonus is friends with Kaosuay.\n\nDraw a graph to represent the friendships where:\n- Each student is a node.\n- Each friendship is an edge (a line connecting two students)."
         },
         {
           "type": "short_answer",
