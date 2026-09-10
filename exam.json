@@ -119,25 +119,25 @@
         {
           "type": "gcf_factorization",
           "id": "q9",
-          "num1": 30,
-          "num2": 40,
-          "text": "9. Use the factorization method to find the GCF of **30** and **40**.",
+          "num1": 25,
+          "num2": 50,
+          "text": "9. Use the factorization method to find the GCF of **25** and **50**.",
           "max_points": 1
         },
         {
           "type": "gcf_subtraction",
           "id": "q10",
-          "num1": 11,
-          "num2": 22,
-          "text": "10. Use the subtraction method to find the GCF of **11** and **22**.",
+          "num1": 30,
+          "num2": 6,
+          "text": "10. Use the subtraction method to find the GCF of **30** and **6**.",
           "max_points": 1
         },
         {
           "type": "gcf_division",
           "id": "q11",
-          "num1": 77,
-          "num2": 49,
-          "text": "11. Use the division method to find the GCF of **77** and **49**.",
+          "num1": 78,
+          "num2": 66,
+          "text": "11. Use the division method to find the GCF of **78** and **66**.",
           "max_points": 1
         }
       ]
