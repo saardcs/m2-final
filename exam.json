@@ -143,7 +143,7 @@
       ]
     },
     {
-      "title": "PART V: Graphs and Trees (6pts)",
+      "title": "PART V: Graphs and Trees (9pts)",
       "instruction": "Answer the following questions by selecting the correct answer.",
       "items": [
         {
@@ -221,6 +221,37 @@
           "type": "instruction",
           "text": "Use the graph below to answer the following questions.",
           "image": "images/tree.png"
+        },
+        {
+          "type": "mcq",
+          "id": "q18",
+          "text": "18. Which of the following is NOT a valid spanning tree of the graph?",
+          "options": [
+            "Tree A",
+            "Tree B",
+            "Tree C",
+            "Tree D"
+          ],
+          "max_points": 1
+        },
+        {
+          "type": "mcq",
+          "id": "q19",
+          "text": "19. Out of the spanning trees below, which one has the lowest total cost?",
+          "options": [
+            "Tree A",
+            "Tree B",
+            "Tree C",
+            "Tree D"
+          ],
+          "max_points": 1
+        },
+        {
+          "id": "q20",
+          "type": "short_answer",
+          "text": "20. Total cost:",
+          "label": " ",
+          "max_points": 1
         }
       ]
     }

@@ -157,6 +157,7 @@ def render_mcq(item):
         f"**{question_text}**",
         options=options,
         key=item["id"],
+        horizontal=True,
         label_visibility="collapsed"
     )
 
@@ -189,9 +190,9 @@ def render_drawing(item):
         key="canvas",
     )
 
-def render_short_answer(item):
+def render_short_answer(item, label="Nodes (separated by commas):"):
     st.write(item["text"])
-    st.text_input("Nodes (separated by commas):", key = item["id"])
+    st.text_input(label, key = item["id"])
 
 def render_graph_visualization(item):
     st.write(item["text"])
