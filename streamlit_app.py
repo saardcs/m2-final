@@ -586,8 +586,22 @@ def grade_exam():
                 }
                 section_score += score
 
+            elif item_type == "short_answer" and item_id == "q20":
+                user_answer = st.session_state.get(item_id, "").strip()
+                correct_answer = st.secrets["answers"][item_id]
 
+                try:
+                    score = max_points if float(user_answer) == float(correct_answer) else 0
+                except:
+                    score = 0
 
+                submission["answers"][section_name][item_id] = {
+                    "answer": user_answer,
+                    "score": score,
+                    "type": item_type
+                }
+
+                section_score += score
         
         submission["scores"][section_name] = section_score
         total_score += section_score

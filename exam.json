@@ -59,7 +59,7 @@
     },
     {
       "title": "PART III: Counting Combinations II (4pts)",
-      "instruction": "Given the problem below, answer the following questions.\n\nSuppose that the four-character code has the following restrictions:\n- Numbers and letters\n- Uppercase letters only (lowercase is not allowed)\n- Cannot repeat characters",
+      "instruction": "Given the problem below, answer the following questions.\n\nSuppose that the four-character code has the following restrictions:\n- Numbers and letters\n- Lowercase letters only (uppercase is not allowed)\n- Cannot repeat characters",
       "image": "images/4char.png",
       "items": [
         {
