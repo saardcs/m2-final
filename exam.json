@@ -2,54 +2,15 @@
   "title": "Final Exam",
   "sections": [
     {
-      "title": "PART I: Sudoku Puzzle (4pts)",
-      "instruction": "Answer the following questions by selecting the correct answer.",
+      "title": "PART I: Sudoku Puzzle (1pt)",
+      "instruction": "Solve the 6x6 Sudoku puzzle using the numbers 1 to 6.",
       "items": [
         {
-          "type": "mcq",
-          "id": "q1",
-          "text": "1. The highlighted portion of the sudoku puzzle below is called",
-          "image": "images/sudoku1.png",
-          "options": [
-            "Column",
-            "Row",
-            "Run",
-            "Mini-grid"
-          ],
-          "max_points": 0.5
-        },
-        {
-          "type": "mcq",
-          "id": "q2",
-          "text": "2. The highlighted portion of the sudoku puzzle below is called",
-          "image": "images/sudoku2.png",
-          "options": [
-            "Column",
-            "Row",
-            "Run",
-            "Mini-grid"
-          ],
-          "max_points": 0.5
-        },
-        {
-          "type": "mcq",
-          "id": "q3",
-          "text": "3. The highlighted portion of the sudoku puzzle below is called",
-          "image": "images/sudoku3.png",
-          "options": [
-            "Column",
-            "Row",
-            "Run",
-            "Mini-grid"
-          ],
-          "max_points": 0.5
-        },
-        {
           "type": "sudoku",
-          "id": "q4",
-          "text": "4. Solve the 6x6 Sudoku puzzle using the numbers 1 to 6.",
+          "id": "q1",
+          "text": "1. Solve the 6x6 Sudoku puzzle using the numbers 1 to 6.",
           "component": "sudoku",
-          "max_points": 2.5
+          "max_points": 1
         }
       ]
     },
@@ -60,37 +21,37 @@
       "items": [
         {
           "type": "mcq",
-          "id": "q5",
-          "text": "5. How many different three-block towers can you make?",
+          "id": "q2",
+          "text": "2. How many different four-block towers can you make?",
           "options": [
-            "2",
-            "4",
-            "6",
-            "8"
+            "12",
+            "16",
+            "18",
+            "24"
           ],
           "max_points": 1
         },
         {
           "type": "mcq",
-          "id": "q6",
-          "text": "6. How many different three-block towers can you make if there is a restriction that the red block cannot be at the top?",
+          "id": "q3",
+          "text": "3. How many different four-block towers can you make if there is a restriction that the red block cannot be at the top?",
           "options": [
-            "2",
-            "4",
-            "6",
-            "8"
+            "12",
+            "16",
+            "18",
+            "24"
           ],
           "max_points": 1
         },
         {
           "type": "mcq",
-          "id": "q7",
-          "text": "7. How many different four-block towers can you make, if there is a restriction that the red block and the blue block cannot be at the top?",
+          "id": "q4",
+          "text": "4. How many different four-block towers can you make, if there is a restriction that the red block and the blue block cannot be at the top?",
           "options": [
-            "2",
-            "4",
-            "6",
-            "8"
+            "12",
+            "16",
+            "18",
+            "24"
           ],
           "max_points": 1
         }
@@ -103,8 +64,8 @@
       "items": [
         {
           "type": "mcq",
-          "id": "q8",
-          "text": "8. What characters can make up the code?",
+          "id": "q5",
+          "text": "5. What characters can make up the code?",
           "options": [
             "10 numbers",
             "26 letters",
@@ -115,8 +76,8 @@
         },
         {
           "type": "mcq",
-          "id": "q9",
-          "text": "9. How many possible characters are there for the first spot in the password?",
+          "id": "q6",
+          "text": "6. How many possible characters are there for the first spot in the password?",
           "options": [
             "10",
             "59",
@@ -127,8 +88,8 @@
         },
         {
           "type": "mcq",
-          "id": "q10",
-          "text": "10. How many possible characters are there for the fourth spot in the password?",
+          "id": "q7",
+          "text": "7. How many possible characters are there for the fourth spot in the password?",
           "options": [
             "7",
             "33",
@@ -139,8 +100,8 @@
         },
         {
           "type": "mcq",
-          "id": "q11",
-          "text": "11. How many total password combinations are possible?",
+          "id": "q8",
+          "text": "8. How many total password combinations are possible?",
           "options": [
             "1,413,720",
             "776,520,240",
@@ -157,26 +118,26 @@
       "items": [
         {
           "type": "gcf_factorization",
-          "id": "q12",
+          "id": "q9",
           "num1": 30,
           "num2": 40,
-          "text": "12. Use the factorization method to find the GCF of **30** and **40**.",
+          "text": "9. Use the factorization method to find the GCF of **30** and **40**.",
           "max_points": 1
         },
         {
           "type": "gcf_subtraction",
-          "id": "q13",
+          "id": "q10",
           "num1": 11,
           "num2": 22,
-          "text": "13. Use the subtraction method to find the GCF of **11** and **22**.",
+          "text": "10. Use the subtraction method to find the GCF of **11** and **22**.",
           "max_points": 1
         },
         {
           "type": "gcf_division",
-          "id": "q14",
+          "id": "q11",
           "num1": 77,
           "num2": 49,
-          "text": "14. Use the division method to find the GCF of **77** and **49**.",
+          "text": "11. Use the division method to find the GCF of **77** and **49**.",
           "max_points": 1
         }
       ]
@@ -187,8 +148,8 @@
       "items": [
         {
           "type": "mcq",
-          "id": "q15",
-          "text": "15. The highlighted part of the graph is called:",
+          "id": "q12",
+          "text": "12. The highlighted part of the graph is called:",
           "image": "images/graph1.png",
           "options": [
             "Node",
@@ -200,8 +161,8 @@
         },
         {
           "type": "mcq",
-          "id": "q16",
-          "text": "16. The highlighted part of the graph is called:",
+          "id": "q13",
+          "text": "13. The highlighted part of the graph is called:",
           "image": "images/graph2.png",
           "options": [
             "Node",
@@ -218,8 +179,8 @@
         },
         {
           "type": "mcq",
-          "id": "q17",
-          "text": "17. Which node is the root?",
+          "id": "q14",
+          "text": "14. Which node is the root?",
           "options": [
             "Node A",
             "Nodes E, F, G, H, I",
@@ -230,8 +191,8 @@
         },
         {
           "type": "mcq",
-          "id": "q18",
-          "text": "18. Which nodes are leaves?",
+          "id": "q15",
+          "text": "15. Which nodes are leaves?",
           "options": [
             "Node A",
             "Nodes E, F, G, H, I",
@@ -246,15 +207,20 @@
         },
         {
           "type": "short_answer",
-          "id": "q19",
-          "text": "19. List the nodes of your graph (e.g. Mina):",
+          "id": "q16",
+          "text": "16. List the nodes of your graph (e.g. Mina):",
           "max_points": 1
         },
         {
           "type": "graph_visualization",
-          "id": "q20",
-          "text": "20. List the edges of your graph (e.g. Fah - Beam):",
+          "id": "q17",
+          "text": "17. List the edges of your graph (e.g. Fah - Beam):",
           "max_points": 1
+        },
+        {
+          "type": "instruction",
+          "text": "Use the graph below to answer the following questions.",
+          "image": "images/tree.png"
         }
       ]
     }
