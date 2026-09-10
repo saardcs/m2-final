@@ -208,14 +208,14 @@
         {
           "type": "short_answer",
           "id": "q16",
-          "text": "16. List the nodes of your graph (e.g. Mina):",
+          "text": "16. List the nodes of your graph (e.g. Zemi):",
           "label": "Nodes (separated by commas):",
           "max_points": 1
         },
         {
           "type": "graph_visualization",
           "id": "q17",
-          "text": "17. List the edges of your graph (e.g. Fah - Beam):",
+          "text": "17. List the edges of your graph (e.g. Zemi - Unplug):",
           "max_points": 1
         },
         {
